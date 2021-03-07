@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["welcome","text","console","log"],"mappings":"aAAA,IAAMA,OAAO,GAAG,SAAVA,OAAU,CAAAC,IAAI,EAAI;AACtBC,EAAAA,OAAO,CAACC,GAAR,CAAYF,IAAZ;AACD,CAFD;;AAIAD,OAAO,CAAC,OAAD,CAAP","sourcesContent":["const welcome = text => {\r\n  console.log(text);\r\n};\r\n\r\nwelcome('hello');\r\n"],"file":"../script.js"}

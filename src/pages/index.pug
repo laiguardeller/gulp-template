@@ -1,0 +1,9 @@
+extends layout/base
+block variables
+    -var title = 'LGD-GULP-4'
+
+block page-content
+    section.b-hero(style={'height':'calc(100vh - 100px)', 'min-height':'350px', 'display':'flex', 'justify-content':'center', 'align-items':'center'})
+        .b-hero__content(style={'transform':'translateY(50px)'})
+            h1.b-hero__title(style={'font-size':'24px', 'text-align':'center', 'margin':'0 0 -50px 0', 'z-index':'20', 'position':'relative', 'opacity':'.45', 'text-transform':'uppercase', 'font-weight':'400'}) Welcome
+            img(src="img/gulp.gif", alt="Gulp 4", style={'max-width':'550px', 'max-height':'250px', 'width':'100%', 'height':'100%', 'object-fit':'cover'}).b-hero__image

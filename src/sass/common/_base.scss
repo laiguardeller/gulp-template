@@ -1,0 +1,26 @@
+$font: 'Roboto';
+
+// =============== GENERAL STYLES =============== //
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: $font, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    position: relative;
+    text-rendering: optimizeSpeed;
+}
+
+.b-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.b-content {
+    flex: 1 0 auto;
+}

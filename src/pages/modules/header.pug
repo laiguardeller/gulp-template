@@ -1,0 +1,15 @@
+header.b-header(style={'display':'flex', 'align-items':'center', 'justify-content':'center', 'border-bottom':'1px solid #ddd', 'height':'50px', 'box-sizing':'border-box'})
+    -
+        var linkStyles = {
+            'display': 'flex',
+            'align-items': 'center',
+            'justify-content': 'center',
+            'color': '#000',
+            'font-size': '18px',
+            'padding': '13px',
+            'text-decoration': 'none',
+            'text-transform': 'uppercase'
+        }
+    a(href='https://github.com/laiguardeller/gulp-template' rel="noopener noreferrer" title="GitHub" target="_blank" style=linkStyles).b-header__link
+        +svg('b-header__icon', 'github', 'width: 25px; height: 25px; margin-right: 10px;')
+        |github

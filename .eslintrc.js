@@ -1,0 +1,50 @@
+module.exports = {
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': ['error'],
+    'no-console': 0,
+    endOfLine: 'auto',
+    // General JS"
+    'linebreak-style': 0,
+    'no-empty': 0,
+    'no-bitwise': 0,
+    'dot-notation': [
+      2,
+      {
+        allowPattern: '^(START|FINISH|INIT|DONE|NOT_MODIFIED|304|FAIL)$',
+      },
+    ],
+    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'arrow-parens': 0,
+    'no-extra-semi': 0,
+    'global-require': 0,
+    'arrow-body-style': ['error', 'as-needed'],
+    'no-empty-function': 0,
+    'no-confusing-arrow': 0,
+    'template-curly-spacing': 0,
+    'no-prototype-builtins': 0,
+    'no-param-reassign': 0,
+    'comma-dangle': 0,
+    'no-use-before-define': 2,
+    'no-underscore-dangle': 0,
+    'consistent-return': 0,
+    'space-before-function-paren': 0,
+    'func-names': 0,
+    'no-shadow': 0,
+
+    // Import
+    'import/first': 2,
+    'import/extensions': 0,
+    'import/no-unresolved': 2,
+    'import/no-dynamic-require': 0,
+    'import/newline-after-import': 0,
+    'import/prefer-default-export': 0,
+    'import/no-webpack-loader-syntax': 0,
+    'import/no-extraneous-dependencies': 0,
+
+    'class-methods-use-this': 0,
+    'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+  },
+};
