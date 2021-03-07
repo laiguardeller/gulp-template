@@ -4,7 +4,7 @@
 
 ![preview](./preview.png)
 
-### The [Gulp](gulpjs.com) template was made for
+### The [Gulp](https://gulpjs.com/) template was made for
 ## 🔥 Fast and comfortable developing static web-sites 🔥
 
 Let me describe this.
@@ -52,23 +52,23 @@ Template's Folder Structure
 ## Main Stack
 In this template you can see modern stack of technologies:
 
-- [Gulp](gulpjs.com) - this is it ;)
-- [Pug](pugjs.org) - HTML-template engine
-- [Sass](sass-lang.com) - cool css-preprocessor
-- [Babel](babeljs.io) - compiling your ES6 javascript for better supporting
+- [Gulp](https://gulpjs.com/) - this is it ;)
+- [Pug](https://pugjs.org/api/getting-started.html) - HTML-template engine
+- [Sass](https://sass-lang.com/) - cool css-preprocessor
+- [Babel](https://babeljs.io/) - compiling your ES6 javascript for better supporting
 
 
 ## Installation
 
-Template requires [NodeJS](nodejs.org), install this if you haven't yet.
-Next, you need to install dependencies via [npm](npmjs.com):
+Template requires [NodeJS](https://nodejs.org/en/), install this if you haven't yet.
+Next, you need to install dependencies via [npm](https://www.npmjs.com/):
 
 ```sh
 npm i
 ```
 
 > all following steps we will do with npm, but you can type `gulp start` or something else after installing
-> Optional: you also able to install in your IDE this plugins: [Prettier](prettier.io), [Eslint](eslint.org)
+> Optional: you also able to install in your IDE this plugins: [Prettier](https://prettier.io/), [Eslint](https://eslint.org/)
 
 All done! To launch this template you can write:
 
@@ -83,15 +83,15 @@ Description on what plugins are included is below.
 
 | Plugin | Description |
 | ------ | ------ |
-| [Babel](babeljs.io) | JavaScript compiler |
-| [Eslint](npmjs.com/package/eslint) | JavaScript linter |
-| [Gulp](npmjs.com/package/gulp) | The streaming build system |
-| [gulp-autoprefixer](npmjs.com/package/gulp-autoprefixer) | Prefix CSS |
-| [gulp-group-css-media-queries](npmjs.com/package/gulp-group-css-media-queries) | Groups your media queries |
-| [gulp-pug](npmjs.com/package/gulp-pug) | Gulp plugin for compiling Pug templates |
-| [gulp-sass](npmjs.com/package/gulp-sass) | Gulp plugin for compiling Sass templates |
-| [gulp-ttf2woff](npmjs.com/package/gulp-ttf2woff) | Create a WOFF font from a TTF |
-| [gulp-ttf2woff2](npmjs.com/package/gulp-ttf2woff2) | Create a WOFF2 font from a TTF |
+| [Babel](https://babeljs.io/) | JavaScript compiler |
+| [Eslint](https://www.npmjs.com/package/eslint) | JavaScript linter |
+| [Gulp](https://www.npmjs.com/package/gulp) | The streaming build system |
+| [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) | Prefix CSS |
+| [gulp-group-css-media-queries](https://www.npmjs.com/package/gulp-group-css-media-queries) | Groups your media queries |
+| [gulp-pug](https://www.npmjs.com/package/gulp-pug) | Gulp plugin for compiling Pug templates |
+| [gulp-sass](https://www.npmjs.com/package/gulp-sass) | Gulp plugin for compiling Sass templates |
+| [gulp-ttf2woff](https://www.npmjs.com/package/gulp-ttf2woff) | Create a WOFF font from a TTF |
+| [gulp-ttf2woff2](https://www.npmjs.com/package/gulp-ttf2woff2) | Create a WOFF2 font from a TTF |
 
 This is not the full list of plugins, you can open `${package.json}`
 to see all plugins that I used in this template.
@@ -101,7 +101,7 @@ to see all plugins that I used in this template.
 I made optional tasks to make your developing more comfortable.
 You can run:
 ```
-npm run fonts
+npm run font
 ```
 To compile your TTF fonts to WOFF/WOFF2, this is easy!
 
